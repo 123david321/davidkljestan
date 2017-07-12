@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		.pic{
+			float: left;
+			width: 31%;
+			background-color: #f3f3f3;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin: 1%;
+		}
+		.pic img{
+			width: 100%;
+		}
+		.pic .desc{
+			font-weight: bold;
+			font-size: 25px;
+			padding: 10px;
+			text-align: center;
+		}
+		@media(max-width: 800px){
+			.pic{
+				float: left;
+				display: inline-table;
+				width: 48%;
+			}
+		}
+		@media(max-width: 400px){
+			.pic{
+				float: none;
+				display: block;
+				width: 98%;
+			}
+			.pic .desc{
+				font-size: 15px;
+				padding: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+		<div class="pic">
+			<img src="img.jpg" alt="motocycle">
+			<div class="desc"><br>This is car<br></div>
+		</div>
+		<div class="pic">
+			<img src="img.jpg" alt="motocycle">
+			<div class="desc"><br>This is car<br></div>
+		</div>
+		<div class="pic">
+			<img src="img.jpg" alt="motocycle">
+			<div class="desc"><br>This is car<br></div>
+		</div>
+	
+</body>
+</html>
